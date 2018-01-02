@@ -11,7 +11,7 @@ body {
 #shell {
   width: 330px;
   height: 500px;
-  background-color: lightgrey;
+  background: radial-gradient(white,lightblue,grey);
   border-radius: 10%;
   position: relative;
   left: 30%;
