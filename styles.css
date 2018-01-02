@@ -1,0 +1,90 @@
+* {
+  font-family: helvetica, sans-serif;
+}
+
+body {
+  background-image: url("https://i.imgur.com/HtKA1PX.jpg");
+  height: 100%;
+
+}
+
+#shell {
+  width: 330px;
+  height: 500px;
+  background-color: lightgrey;
+  border-radius: 10%;
+  position: relative;
+  left: 30%;
+  padding: 2%;
+  margin: 5%;
+  box-shadow: -2px 2px 120px 10px ;
+
+}
+
+#screenArea {
+  background-color: black;
+  width: 98%;
+  height: 100px;
+  position: relative;
+  border-radius: 10%;
+  border-style: inset;
+}
+
+#screen {
+  font-size: 65px;
+  color: lightgreen;
+  font-family: 'roboto mono', monospace;
+  text-align: right;
+  width: 95%;
+  margin: 2%;
+  background-color: black;
+  border: none;
+}
+
+#buttonArea {
+
+}
+
+.button {
+  float: left;
+  margin: 7%;
+  padding-top: 2% ;
+  width: 35px;
+  height: 30px;
+  text-align: center;
+  background-color: sienna;
+  border-radius: 12%;
+  border: .5px grey outset;
+  box-shadow: -1px 1px #888888;
+}
+
+#seven, #four, #one, #zero {
+  clear: both;
+}
+
+#zero {
+  width: 36%;
+  margin-left: 4%
+}
+
+#clear, #delete {
+  width: 65px;
+  margin-right: 0;
+  margin-left: 5%;
+  background-color: crimson;
+}
+
+#multiply, #divide, #subtract, #add {
+  background-color: pink;
+  width: 45px;
+  margin-left: 4%;
+}
+
+#equals {
+  background-color: lightblue;
+  width: 44px;
+}
+
+#percent, #decimal {
+  background-color: orange;
+}
