@@ -52,7 +52,8 @@ body {
   width: 35px;
   height: 30px;
   text-align: center;
-  background-color: sienna;
+  background-color: cornflowerblue;
+  color: yellow;
   border-radius: 12%;
   border: .5px grey outset;
   box-shadow: -1px 1px #888888;
