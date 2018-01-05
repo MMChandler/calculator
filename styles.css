@@ -73,19 +73,23 @@ body {
   margin-right: 0;
   margin-left: 5%;
   background-color: crimson;
+  color: black;
 }
 
 #multiply, #divide, #subtract, #add {
   background-color: pink;
   width: 45px;
   margin-left: 4%;
+  color: black;
 }
 
 #equals {
   background-color: lightblue;
   width: 44px;
+  color: black;
 }
 
 #percent, #decimal {
   background-color: orange;
+  color: black;
 }
